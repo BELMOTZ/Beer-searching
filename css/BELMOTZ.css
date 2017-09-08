@@ -1,0 +1,49 @@
+body {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size:cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-position: fixed;
+  z-index: -1;
+  color: #f1f1f1;
+  text-shadow: 2px 2px black;
+}
+input, p{
+  font-size: 20px;
+  height: 30px;
+}
+i {
+  color: red;
+}
+button {
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  height: 35px;
+  font-size: 15px;
+  vertical-align : top;
+}
+#beers {
+  border-collapse: collapse;
+  width: 60%;
+  border: 1px solid #ddd;
+  font-size: 20px;
+  vertical-align : top;
+}
+#beers tr {
+  border-bottom: 1px solid #ddd;
+  background: url(../img/content.png);
+}
+#beers tr:hover {
+  background-color: black;
+  background: url(../img/content-hover.png);
+}
+.se {
+  margin-top: 20px;
+  text-align: center;
+}
